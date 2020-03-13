@@ -13,13 +13,13 @@ function GroupHeader() {
         
         <div className="profile-banner">
           <a href="#">
-            <div className="pagetabsL">
+            <div className="pagetabsGL">
             Feed
               </div>
             </a>
         
           <a href="#">
-            <div className="pagetabsL">
+            <div className="pagetabsGL">
             About
               </div>
             </a>
@@ -36,12 +36,12 @@ function GroupHeader() {
 {/*profile tabs right*/}
 
             <a href="#">
-            <div className="pagetabsR">
+            <div className="pagetabsGR">
             People
               </div>
             </a>
             <a href="#">
-              <div className="pagetabsR">
+              <div className="pagetabsGR">
                 Photos
                 </div>
               </a>

@@ -15,10 +15,10 @@ import GroupPage from './Components/group-page';
 function App() {
   return (
     <div className="background">
-    <Header />
+    <Header  />
    
     
-   <FriendGroup />
+   <GroupPage />
       
 {/*Options: Profile Page (ProfilePage), Newsfeed (Newsfeed), Page of Groups (FriendGroup), Group Profile (GroupPage)*/}
     </div>  
