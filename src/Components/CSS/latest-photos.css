@@ -1,0 +1,13 @@
+.photo-content {
+  margin: 15px;
+   
+}
+
+.photo-box {
+    width: 46%;
+    height: 7vw;
+    background-color: grey;
+    border-radius: 5px;
+    margin: 2%;
+    float: left;
+    }

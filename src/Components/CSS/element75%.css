@@ -1,0 +1,20 @@
+.info-box {
+  width: 1075px;
+  height: auto;
+  margin: 25px;
+  border: 2px solid #e6ecf5;
+  border-radius: 5px;
+
+}
+
+.title {
+  width: 80%;
+  height: 24px;
+  padding: 13px 10% 13px 10%;
+  border-bottom: 2px solid #e6ecf5;
+  font-size: 18px;
+}
+
+.content {
+  margin: 10px;
+}

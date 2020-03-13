@@ -1,0 +1,37 @@
+.info-box25 {
+  width: 350px;
+  height: auto;
+  margin: 25px 25px 25px 200px;
+  border: 2px solid #e6ecf5;
+  border-radius: 5px;
+  float: left;
+}
+
+.title25 {
+  width: 80%;
+  height: 24px;
+  padding: 13px 10% 13px 10%;
+  border-bottom: 2px solid #e6ecf5;
+  font-size: 18px;
+}
+
+.content25 {
+  margin: 10px;
+}
+
+.subtitle25 {
+  height: auto;
+  width: 100%;
+  padding-bottom: 25px;
+}
+
+.info1 {
+  float: left;
+  width: 25%;
+  font-weight: bold;
+}
+
+.info2 {
+  float: right;
+  width: 70%;
+}

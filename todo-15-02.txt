@@ -1,0 +1,36 @@
+postman
+
+call API (getrequest)
+
+goes to backend API
+gets info
+
+authentication-ask for token, save token
+
+
+export const data = {
+import { data } from 'wherever'
+
+{userData.title.rendered}
+{userData.content.rendered}
+
+change users to posts
+
+package called moment (shows correct date etc)
+
+after postman- react routers (menu bar and changing pages) 
+
+css extension sass (.scss) shortens typing
+
+Net ninja 
+Traversy Media
+
+use olympus css
+
+download 2taps app
+
+layouts folder
+pages
+components
+assets (images css etc)
+

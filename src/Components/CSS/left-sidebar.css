@@ -1,0 +1,97 @@
+.left-sidebar {
+    width: 12%;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    margin-left: -1.5%;
+    overflow: hidden;
+    z-index:100;
+    }
+
+
+
+
+a {
+  text-decoration: none;
+}    
+
+.sidebar-slider {
+  height: 10vh;
+  width: 10%;
+  float: right;
+  background-color: #a9aeb6;
+  padding: 45vh 10% 45vh 20%;
+  color: #6a6e83;
+  font-size: 25px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.sidebar-slider:hover {
+  opacity: 1;
+}
+.sidebar-header {
+  background-color: orange;
+  width: 100%;
+  height: 5vh;
+  padding: 3vh 0% 0vh 0%;
+  top: 0;
+  left: 0;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.sidebar-link {
+  color:  #6a6e83;
+  font-size: 18px;
+  text-align: center;
+  width: 60%;
+  height: 5%;
+  padding: 10% 0% 0% 0%;
+  opacity: 0.6;
+  transition: 0.3s;
+  border-radius: 5px 5px 5px 5px;
+
+}
+
+.sidebar-link:hover {
+  background-color: #e6ecf5;
+  opacity: 1;
+}
+
+.profile-completion {
+  width: 200px;
+  height: 200px;
+  color: black;
+  font-size: 18px;
+  margin-top: 15px;
+  padding-top: 25px;
+  border-top: 3px solid #e6ecf5;
+  }
+
+.profile-text {
+  float: left;
+  width: 130px;
+  margin: 0px 0px 30px 20px
+}
+
+.profile-percentage {
+  float: right;
+  width: 30px;
+  margin: 0px 20px 0px 0px
+}
+
+
+.profile-info-text {
+  color: #6a6e83;
+  font-size: 16px;
+  margin: 10px 20px 0px 20px;
+  
+}
+
+.profile-link {
+  color: orange;
+}

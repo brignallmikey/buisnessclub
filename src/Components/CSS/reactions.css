@@ -1,0 +1,26 @@
+.reactions {
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.likes {
+    float: right; 
+    margin: 10px 15px 0px 0px;
+    color: grey;
+    }
+
+.shares {
+    float: right; 
+    margin: 10px 15px 0px 0px;
+    color: grey;
+    }    
+
+.likes:hover {
+    color: orange;
+}    
+
+.shares:hover {
+    color: orange;
+} 

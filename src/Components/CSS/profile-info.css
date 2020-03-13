@@ -1,0 +1,38 @@
+.profile-info {
+  width: 350px;
+  height: auto;
+  margin-top: 0px;
+  margin-left: 0px;
+  border: 2px solid #e6ecf5;
+  border-radius: 5px;
+  float: left;
+}
+
+.info-title {
+  width: 80%;
+  height: 24px;
+  padding: 13px 10% 13px 10%;
+  border-bottom: 2px solid #e6ecf5;
+  font-size: 18px;
+}
+
+.profile-content {
+  margin: 10px;
+}
+
+.profile-section {
+  height: auto;
+  width: 100%;
+  padding-bottom: 25px;
+}
+
+.profile-item-title {
+  float: left;
+  width: 40%;
+  font-weight: bold;
+}
+
+.profile-item-info {
+  float: right;
+  width: 60%;
+}
