@@ -54,7 +54,7 @@ a {
   opacity: 0.6;
   transition: 0.3s;
   border-radius: 5px 5px 5px 5px;
-
+  list-style: none;
 }
 
 .sidebar-link:hover {
