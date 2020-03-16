@@ -1,10 +1,12 @@
 import React from 'react';
 
 import { TesterUserData } from '../assets/databaseprofiles/database-profile-micb';
-
+import Layout from '../layout/Layout';
 
 function ProfileHeader() {
   return (
+
+  <Layout>
     <div className="App">
       <div className="profile-page-header">
       <img src={TesterUserData.cover_photo} className="cover-photo" alt="cp" />
@@ -67,6 +69,7 @@ function ProfileHeader() {
 
   </div>
 </div>
+</Layout>
     
   );
 }

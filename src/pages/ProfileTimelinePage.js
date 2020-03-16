@@ -4,10 +4,12 @@ import ProfileInfo from '../components/ProfileInfo';
 import Favouriteshort from '../components/ProfileFavouriteShort';
 import LatestPhotos from '../components/ProfileLatestPhotos.js';
 import BlogPosts from '../components/ProfileBlogPosts';
+import Profile from '../layout/Profile';
 
 
 function ProfileTimelinePage() {
   return (
+    <Profile>
     <div>
     <div className="left-column">
       <ProfileInfo />
@@ -27,6 +29,7 @@ function ProfileTimelinePage() {
        
     </div>
     </div>
+    </Profile>
   );
 }
 export default ProfileTimelinePage;
