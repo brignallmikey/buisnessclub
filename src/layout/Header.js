@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import TesterUserData from "../DatabaseProfiles/database-profile-tester";
+import { TesterUserData } from '../assets/databaseprofiles/database-profile-micb';
 
 class Header extends Component {
   render() {

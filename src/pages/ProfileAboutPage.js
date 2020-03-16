@@ -1,7 +1,7 @@
 import React from 'react';
-import ProfileInfo from '../ProfileInfo';
-import Favouritelong from '../ProfileFavouriteFull';
-import EducationEmployment from '../ProfileEducationEmployment';
+import ProfileInfo from '../components/ProfileInfo';
+import Favouritelong from '../components/ProfileFavouriteFull';
+import EducationEmployment from '../components/ProfileEducationEmployment';
 
 
 

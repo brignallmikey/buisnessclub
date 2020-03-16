@@ -1,12 +1,12 @@
 import React from "react";
 
-import { TesterUserData } from "../DatabaseProfiles/database-profile-tester";
-import Profileheader from "./ProfileHeader";
-import Timeline from "./Pages/ProfileTimelinePage";
-import About from "./Pages/ProfileAboutPage";
-import Friends from "./Pages/ProfileFriendsPage";
-import Photos from "./Pages/ProfilePhotosPage";
-import Videos from "./Pages/ProfileVideosPage";
+import { TesterUserData } from "../assets/databaseprofiles/database-profile-tester";
+import Profileheader from "../components/ProfileHeader";
+import Timeline from "./ProfileTimelinePage";
+import About from "./ProfileAboutPage";
+import Friends from "./ProfileFriendsPage";
+import Photos from "./ProfilePhotosPage";
+import Videos from "./ProfileVideosPage";
 import Layout from "../layout/Layout";
 
 function ProfilePage() {

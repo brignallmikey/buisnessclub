@@ -1,7 +1,7 @@
 import React from 'react';
 
-import TesterUserData, { TesterGroupData } from '../DatabaseProfiles/database-group-tester';
-import FriendCard from '../FriendCard';
+import TesterUserData, { TesterGroupData } from '../assets/databaseprofiles/database-group-tester';
+import FriendCard from '../components/FriendCard';
 
 
 

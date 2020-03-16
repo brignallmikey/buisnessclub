@@ -1,7 +1,7 @@
 import React from 'react';
 
-import TesterUserData from '../../DatabaseProfiles/database-profile-tester';
-import PhotoTile from '../ProfilePhotoTile';
+import { TesterUserData } from "../assets/databaseprofiles/database-profile-tester";
+import PhotoTile from '../components/ProfilePhotoTile';
 
 
 

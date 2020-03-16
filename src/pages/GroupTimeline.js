@@ -1,9 +1,9 @@
 import React from 'react';
-import ProfilePost from "\/ProfilePage/ProfilePost";
-import GroupInfo from './GroupInfo';
-import GroupMembers from './GroupMembersShort';
-import LatestPhotos from '../ProfilePage/ProfileLatestPhotos.js';
-import BlogPosts from '../ProfilePage/ProfileBlogPosts';
+import ProfilePost from "../components/ProfilePost";
+import GroupInfo from '../components/GroupInfo';
+import GroupMembers from '../components/GroupMembersShort';
+import LatestPhotos from '../components/ProfileLatestPhotos.js';
+import BlogPosts from '../components/ProfileBlogPosts';
 
 
 function GroupTimeline() {

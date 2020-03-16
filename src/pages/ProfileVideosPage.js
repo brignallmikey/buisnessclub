@@ -1,7 +1,7 @@
 import React from 'react';
 
-import TesterUserData from '../../DatabaseProfiles/database-profile-tester';
-import VideoTile from '../ProfileVideoTile';
+import { TesterUserData } from "../assets/databaseprofiles/database-profile-tester";
+import VideoTile from '../components/ProfileVideoTile';
 
 
 

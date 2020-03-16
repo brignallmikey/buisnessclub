@@ -1,12 +1,11 @@
 import React from "react";
 
-import { TesterGroupData } from "../DatabaseProfiles/database-group-tester";
-import GroupHeader from "./GroupHeader";
+import { TesterGroupData } from "../assets/databaseprofiles/database-group-tester";
+import GroupHeader from "../components/GroupHeader";
 import GroupTimeline from "./GroupTimeline";
 import GroupAbout from "./GroupAbout";
 import Members from "./GroupMembersPage";
 import GroupPhotos from "./GroupPhotos";
-import Videos from "../ProfilePage/Pages/ProfileVideosPage";
 import Layout from "../layout/Layout";
 
 function GroupPage() {

@@ -1,6 +1,6 @@
 import React from 'react';
-import Interactions from '../interactions';
-import Reactions from '../reactions';
+import Interactions from './interactions';
+import Reactions from './reactions';
 
 
 function ProfilePost() {

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { TesterUserData } from '../DatabaseProfiles/database-profile-micb';
+import { TesterUserData } from '../assets/databaseprofiles/database-profile-micb';
 
 
 function ProfileHeader() {

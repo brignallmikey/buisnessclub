@@ -1,7 +1,7 @@
 import React from 'react';
-import GroupInfo from './GroupInfo';
-import Favouritelong from '../ProfilePage/ProfileFavouriteFull';
-import EducationEmployment from '../ProfilePage/ProfileEducationEmployment';
+import GroupInfo from '../components/GroupInfo';
+import Favouritelong from '../components/ProfileFavouriteFull';
+import EducationEmployment from '../components/ProfileEducationEmployment';
 
 
 

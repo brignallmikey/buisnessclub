@@ -1,7 +1,7 @@
 import React from 'react';
 
-import TesterUserData from '../DatabaseProfiles/database-profile-tester';
-import Interactions from '../interactions';
+import { TesterUserData } from '../assets/databaseprofiles/database-profile-micb';
+import Interactions from './interactions';
 
 
 

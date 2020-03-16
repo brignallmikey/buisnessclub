@@ -1,9 +1,9 @@
 import React from 'react';
-import ProfilePost from '../ProfilePost';
-import ProfileInfo from '../ProfileInfo';
-import Favouriteshort from '../ProfileFavouriteShort';
-import LatestPhotos from '../ProfileLatestPhotos.js';
-import BlogPosts from '../ProfileBlogPosts';
+import ProfilePost from '../components/ProfilePost';
+import ProfileInfo from '../components/ProfileInfo';
+import Favouriteshort from '../components/ProfileFavouriteShort';
+import LatestPhotos from '../components/ProfileLatestPhotos.js';
+import BlogPosts from '../components/ProfileBlogPosts';
 
 
 function ProfileTimelinePage() {

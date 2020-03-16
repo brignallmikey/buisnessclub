@@ -1,9 +1,9 @@
 import React from "react";
 
-import { TesterUserData } from "./DatabaseProfiles/database-profile-tester";
+import { TesterUserData } from '../assets/databaseprofiles/database-profile-micb';
 
-import ProfilePost from "./ProfilePage/ProfilePost";
-import Layout from "./layout/Layout";
+import ProfilePost from "../components/ProfilePost";
+import Layout from "../layout/Layout";
 
 function Newsfeed() {
   return (

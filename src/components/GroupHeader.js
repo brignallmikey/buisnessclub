@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { TesterGroupData } from '../DatabaseProfiles/database-group-tester';
+import { TesterGroupData } from '../assets/databaseprofiles/database-group-tester';
 
 
 function GroupHeader() {

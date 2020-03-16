@@ -1,13 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import './Components/CSS/main.css';
+import './assets/css/main.css';
 
-import ProfilePage from "./Components/Assets/ProfilePage/ProfilePage";
-import About from "./Components/Assets/ProfilePage/Pages/ProfileAboutPage";
+import ProfilePage from "./pages/ProfilePage";
+import About from "./pages/ProfileAboutPage";
 
-import Newsfeed from "./Components/Assets/Newsfeed";
-import GroupFriend from "./Components/Assets/GroupPage/GroupFriend";
-import GroupPage from "./Components/Assets/GroupPage/GroupPage";
+import Newsfeed from "./pages/Newsfeed";
+
+import GroupPage from "./pages/GroupPage";
 
 function App() {
   return (
