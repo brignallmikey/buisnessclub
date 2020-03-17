@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 import { TesterGroupData } from '../assets/databaseprofiles/database-group-tester';
 import Layout from '../layout/Layout';
@@ -13,17 +14,19 @@ function GroupHeader() {
         {/*profile tabs left*/}
         
         <div className="profile-banner">
-          <a href="#">
+          
             <div className="pagetabsGL">
-            Feed
+            <Link to="/groups/profile" onClick={() => console.log("Feed")}>
+              Feed
+            </Link>
               </div>
-            </a>
+            
         
-          <a href="#">
-            <div className="pagetabsGL">
-            About
+              <div className="pagetabsGL">
+            <Link to="/groups/profile/about" onClick={() => console.log("About")}>
+              About
+            </Link>
               </div>
-            </a>
 
 {/*profilename*/}
 
@@ -36,16 +39,17 @@ function GroupHeader() {
 
 {/*profile tabs right*/}
 
-            <a href="#">
             <div className="pagetabsGR">
-            People
+            <Link to="/groups/profile/members" onClick={() => console.log("Members")}>
+              Members
+            </Link>
               </div>
-            </a>
-            <a href="#">
+
               <div className="pagetabsGR">
-                Photos
-                </div>
-              </a>
+            <Link to="/groups/profile/photos" onClick={() => console.log("Photos")}>
+              Photos
+            </Link>
+              </div>
         </div>  
         
     
