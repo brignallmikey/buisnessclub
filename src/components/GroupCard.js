@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
-import TesterUserData from '../DatabaseProfiles/database-profile-tester';
+import TesterUserData from '../assets/databaseprofiles/database-profile-tester';
 
 
 
@@ -15,7 +16,9 @@ function GroupCard() {
             <div className="profile-card" />
             
             <div className="name-card">
+            <Link to="/groups/profile" onClick={() => console.log("GroupProfile")}>
               Group Name
+            </Link>
             </div>
             
             <div className="location-card">
@@ -50,7 +53,9 @@ function GroupCard() {
       </div>
 
       <div className="click-middle">
-          View Members
+      <Link to="/groups/profile/members" onClick={() => console.log("GroupMembers")}>
+              View Members
+            </Link>
           </div> 
 
         </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 import { TesterUserData } from '../assets/databaseprofiles/database-profile-micb';
 import Layout from '../layout/Layout';
@@ -7,31 +8,33 @@ function ProfileHeader() {
   return (
 
   <Layout>
-    <div className="App">
+    <div className="container">
       <div className="profile-page-header">
       <img src={TesterUserData.cover_photo} className="cover-photo" alt="cp" />
         
         {/*profile tabs left*/}
         
         <div className="profile-banner">
-          <a href="#">
-            <div className="pagetabsL">
-            Timeline
-              </div>
-            </a>
-        
-
-          <a href="#">
-            <div className="pagetabsL">
-            About
-              </div>
-            </a>
           
-          <a href="#">
             <div className="pagetabsL">
-            Friends
+            <Link to="/profile" onClick={() => console.log("Timeline")}>
+              Timeline
+            </Link>
               </div>
-            </a>
+            
+        
+            <div className="pagetabsL">
+            <Link to="/profile/about" onClick={() => console.log("About")}>
+              About
+            </Link>
+            </div>
+          
+          
+            <div className="pagetabsL">
+            <Link to="/profile/friends" onClick={() => console.log("Friends")}>
+              Friends
+            </Link>
+            </div>
 
 {/*profilename*/}
 
@@ -50,17 +53,17 @@ function ProfileHeader() {
             <div className="friend-request"></div>
             </div>
 
-            <a href="#">
-              <div className="pagetabsR">
-                Videos
-                </div>
-              </a>
+            <div className="pagetabsR">
+            <Link to="/profile/videos" onClick={() => console.log("Videos")}>
+              Videos
+            </Link>
+            </div>
 
-            <a href="#">
-              <div className="pagetabsR">
-                Photos
-                </div>
-              </a>
+            <div className="pagetabsR">
+            <Link to="/profile/photos" onClick={() => console.log("Photos")}>
+              Photos
+            </Link>
+            </div>
         </div>  
         
     

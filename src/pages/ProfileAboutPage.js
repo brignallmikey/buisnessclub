@@ -3,11 +3,14 @@ import ProfileInfo from '../components/ProfileInfo';
 import Favouritelong from '../components/ProfileFavouriteFull';
 import EducationEmployment from '../components/ProfileEducationEmployment';
 
+import Profile from '../layout/Profile'
+
 
 
 function ProfileAboutPage() {
   return (
-    <div>
+    <Profile>
+    <div className="container-multi">
     <div className="left-33">
         <ProfileInfo />
   
@@ -21,6 +24,7 @@ function ProfileAboutPage() {
 
     </div>
     </div>
+    </Profile>
   );
 }
 export default ProfileAboutPage;

@@ -10,7 +10,7 @@ import Profile from '../layout/Profile';
 function ProfileTimelinePage() {
   return (
     <Profile>
-    <div>
+    <div className="container-multi">
     <div className="left-column">
       <ProfileInfo />
       <BlogPosts />

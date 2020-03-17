@@ -5,10 +5,13 @@ import GroupMembers from '../components/GroupMembersShort';
 import LatestPhotos from '../components/ProfileLatestPhotos.js';
 import BlogPosts from '../components/ProfileBlogPosts';
 
+import GroupProfile from '../layout/ProfileGroup';
+
 
 function GroupTimeline() {
   return (
-    <div>
+    <GroupProfile>
+    <div className="container-multi">
     <div className="left-column">
       <GroupInfo />
       
@@ -27,6 +30,7 @@ function GroupTimeline() {
        
     </div>
     </div>
+    </GroupProfile>
   );
 }
 export default GroupTimeline;

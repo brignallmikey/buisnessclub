@@ -1,11 +1,12 @@
 import React from 'react';
 
 import { TesterGroupData } from '../assets/databaseprofiles/database-group-tester';
-
+import Layout from '../layout/Layout';
 
 function GroupHeader() {
   return (
-    <div className="App">
+    <Layout>
+    <div className="container">
       <div className="profile-page-header">
       <img src={TesterGroupData.cover_photo} className="cover-photo" alt="cp" />
         
@@ -53,6 +54,7 @@ function GroupHeader() {
 
   </div>
 </div>
+</Layout>
     
   );
 }

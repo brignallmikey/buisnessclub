@@ -15,17 +15,19 @@ function LeftSidebar() {
         <div className="sidebar-list">
         <ul>
           <li className="sidebar-link">
-            <Link to="/" onClick={() => console.log("HI  HI ")}>
+            <Link to="/" onClick={() => console.log("Newsfeed")}>
               Home
             </Link>
           </li>
           <li className="sidebar-link">
-            <Link to="/profile" onClick={() => console.log("HI  HI NEWS ")}>
+            <Link to="/profile" onClick={() => console.log("Profile")}>
               Profile
             </Link>
           </li>
           <li className="sidebar-link">
-            <Link to="/groups">Groups</Link>
+            <Link to="/groups" onClick={() => console.log("Groups")}
+            >Groups
+            </Link>
           </li>
         </ul>
         </div>

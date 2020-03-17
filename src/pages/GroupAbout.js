@@ -3,11 +3,13 @@ import GroupInfo from '../components/GroupInfo';
 import Favouritelong from '../components/ProfileFavouriteFull';
 import EducationEmployment from '../components/ProfileEducationEmployment';
 
-
+import GroupProfile from '../layout/ProfileGroup';
+import ProfileTimelinePage from './ProfileTimelinePage';
 
 function GroupAbout() {
   return (
-    <div>
+    <GroupProfile>
+    <div className="container-multi">
     <div className="left-33">
         <GroupInfo />
   
@@ -21,6 +23,7 @@ function GroupAbout() {
 
     </div>
     </div>
+    </GroupProfile>
   );
 }
 export default GroupAbout;

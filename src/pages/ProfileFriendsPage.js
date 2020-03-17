@@ -3,12 +3,15 @@ import React from 'react';
 import { TesterUserData } from "../assets/databaseprofiles/database-profile-tester";
 import FriendCard from '../components/FriendCard';
 
+import Profile from '../layout/Profile';
+
 
 
 
 function ProfileFriendsPage() {
   return (
-    <div>
+    <Profile>
+    <div className="container-multi">
        <div className="element-container margin-l2">
         <div className="friend-title list-horizontal-subtitle">
              {TesterUserData.slug}'s friends
@@ -25,13 +28,8 @@ function ProfileFriendsPage() {
 
         <FriendCard />
 
-        
-
-
-
-       
-       
     </div>
+    </Profile>
     
   );
 }

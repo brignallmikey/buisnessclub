@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 import { TesterUserData } from '../assets/databaseprofiles/database-profile-micb';
 
@@ -15,7 +16,9 @@ function FriendCard() {
             <div className="profile-card" />
             
             <div className="name-card">
+            <Link to="/profile" onClick={() => console.log("Profile")}>
               Forename Surname
+            </Link>
             </div>
             
             <div className="location-card">
