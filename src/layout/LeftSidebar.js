@@ -5,13 +5,14 @@ import ProfilePage from "../pages/ProfilePage";
 
 function LeftSidebar() {
   return (
-    <div className="App">
+    <div>
       <div className="left-sidebar">
-        <a href="#">
+        
           <div className="sidebar-header">TITLE</div>
-        </a>
+        
 
         {/*Links to be chosen and added*/}
+        <div className="sidebar-list">
         <ul>
           <li className="sidebar-link">
             <Link to="/" onClick={() => console.log("HI  HI ")}>
@@ -27,6 +28,7 @@ function LeftSidebar() {
             <Link to="/groups">Groups</Link>
           </li>
         </ul>
+        </div>
         <div className="sidebar-slider">></div>
       </div>
     </div>

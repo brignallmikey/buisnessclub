@@ -7,7 +7,7 @@ class Header extends Component {
     return (
       <div>
         <header className="App-header">
-          <div className="page-title">PageTitle</div>
+          <div className="page-title"/>
 
           {/*searchbar*/}
 
