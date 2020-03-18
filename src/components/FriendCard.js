@@ -15,6 +15,7 @@ function FriendCard() {
             <div className="cover-card" />
             <div className="profile-card" />
             
+            
             <div className="name-card">
             <Link to="/profile" onClick={() => console.log("Profile")}>
               Forename Surname
