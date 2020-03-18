@@ -12,7 +12,7 @@ function SignUp() {
         <div className="right-50">
           <div className="element-container">
             <div className="signup-title">
-          Welcome to BuisnessClub!
+          Welcome to BusinessClub!
               </div>
 
             <div className="signup-info">

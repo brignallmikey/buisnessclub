@@ -11,7 +11,13 @@ import ProfileAboutPage from "./pages/ProfileAboutPage";
 import ProfileFriendsPage from "./pages/ProfileFriendsPage";
 import ProfilePhotosPage from "./pages/ProfilePhotosPage";
 import ProfileVideosPage from "./pages/ProfileVideosPage";
+
 import Settings from "./pages/Settings";
+import Personal from "./pages/Personal";
+import Account from "./pages/Account";
+import Password from "./pages/Password";
+import HobbiesInterests from "./pages/HobbiesInterests";
+import EducationEmployment from "./pages/EducationEmployment";
 
 
 import GroupFriend from "./pages/GroupFriend";
@@ -19,6 +25,7 @@ import GroupTimeline from "./pages/GroupTimeline";
 import GroupAbout from "./pages/GroupAbout";
 import GroupMembers from "./pages/GroupMembersPage";
 import GroupPhotos from "./pages/GroupPhotos";
+
 
 
 function App() {
@@ -36,7 +43,14 @@ function App() {
         <Route exact path="/profile/friends" render={props => <ProfileFriendsPage {...props} />} />
         <Route exact path="/profile/photos" render={props => <ProfilePhotosPage {...props} />} />
         <Route exact path="/profile/videos" render={props => <ProfileVideosPage {...props} />} />
+        
         <Route exact path="/profile/settings" render={props => <Settings {...props} />} />
+        <Route exact path="/profile/settings/personal" render={props => <Personal {...props} />} />
+        <Route exact path="/profile/settings/account" render={props => <Account {...props} />} />
+        <Route exact path="/profile/settings/password" render={props => <Password {...props} />} />
+        <Route exact path="/profile/settings/hobbiesinterests" render={props => <HobbiesInterests {...props} />} />
+        <Route exact path="/profile/settings/educationemployment" render={props => <EducationEmployment {...props} />} />
+
         
 
         <Route exact path="/groups" render={props => <GroupFriend {...props} />} />
