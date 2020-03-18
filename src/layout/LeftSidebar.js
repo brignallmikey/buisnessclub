@@ -14,21 +14,31 @@ function LeftSidebar() {
         {/*Links to be chosen and added*/}
         <div className="sidebar-list">
         <ul>
+          <Link to="/newsfeed" onClick={() => console.log("Newsfeed")}>
           <li className="sidebar-link">
-            <Link to="/" onClick={() => console.log("Newsfeed")}>
               Home
+              </li>
             </Link>
-          </li>
-          <li className="sidebar-link">
+          
+         
             <Link to="/profile" onClick={() => console.log("Profile")}>
+            <li className="sidebar-link">
               Profile
+              </li>
             </Link>
-          </li>
-          <li className="sidebar-link">
-            <Link to="/groups" onClick={() => console.log("Groups")}
-            >Groups
+          
+            <Link to="/groups" onClick={() => console.log("Groups")}>
+            <li className="sidebar-link">
+              Groups
+              </li>
             </Link>
-          </li>
+          
+            <Link to="/profile/settings" onClick={() => console.log("Settings")}>
+            <li className="sidebar-link">
+            Settings
+            </li>
+            </Link>
+          
         </ul>
         </div>
         <div className="sidebar-slider">></div>
