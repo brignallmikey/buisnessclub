@@ -1,36 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import { TesterUserData } from '../assets/databaseprofiles/database-profile-micb';
+import { TesterUserData } from "../assets/databaseprofiles/database-profile-micb";
 
 import Layout from "../layout/Layout";
 
-function Account() {
+function Password() {
   return (
-    <Layout>
-      <div className="container">
-          <div className="element-container">
-            <div className="signup-title">
-              Account Settings
-              </div>
-
-         
-            <div className="signup-info">
-              placeholder
-              </div>
-
-                
-              
-
-          
-
-         </div>
-
-
-
-        
-      </div>
-    </Layout>
+    <div>
+      Account
+      <div className="button-large-r">Submit</div>
+    </div>
   );
 }
-export default Account;
+export default Password;

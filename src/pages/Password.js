@@ -7,30 +7,29 @@ import Layout from "../layout/Layout";
 
 function Password() {
   return (
-    <Layout>
-      <div className="container">
-          <div className="element-container">
-            <div className="signup-title">
-              Change Password
-              </div>
+    
+           <div>
+            <form>
+              <input type="text" className="signup-input" placeholder="Current Password" />
+            </form>
 
-         
-            <div className="signup-info">
-              placeholder
-              </div>
+            <form>
+              <input type="text" className="signup-input" placeholder="New Password - minimum 8 characters, 1 captial, 1 number" />
+            </form>
 
-                
-              
+            <form>
+              <input type="text" className="signup-input" placeholder="Confirm New Password" />
+            </form>
 
-          
+            
 
-         </div>
+            <div className="button-large-r">
+              Submit
+            </div>
+            </div>
 
-
-
-        
-      </div>
-    </Layout>
+     
+    
   );
 }
 export default Password;

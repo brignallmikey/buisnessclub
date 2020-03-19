@@ -1,70 +1,95 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import Personal from "./Personal";
+import Account from "./Account";
+import Password from "./Password";
+import HobbiesInterests from "./HobbiesInterests";
+import EducationEmployment from "./EducationEmployment";
 
-import { TesterUserData } from '../assets/databaseprofiles/database-profile-micb';
+import { TesterUserData } from "../assets/databaseprofiles/database-profile-micb";
 
 import Layout from "../layout/Layout";
 
-function Settings() {
+const Settings = () => {
+  const [settingsMenu, setSettingsMenu] = useState("personal");
   return (
     <Layout>
       <div className="container">
-          <div className="element-container">
-            <div className="signup-title">
-              Profile Settings
-              </div>
+        <div className="element-container">
+          <div className="signup-title">Profile Settings</div>
 
-        <div className="left-column">
-          <Link to="/profile/settings/personal" onClick={() => console.log("PersonalInfo")}>
-            <div className="signup-info">
+          <div className="left-column">
+            <div
+              className={`settings-title ${
+                settingsMenu === "personal" ? "active" : ""
+              }`}
+              onClick={() => setSettingsMenu("personal")}
+              tabIndex={0}
+              onKeyDown={() => setSettingsMenu("personal")}
+            >
               Personal Information
-              </div>
-            </Link>  
-
-          <Link to="/profile/settings/account" onClick={() => console.log("AccountSettings")}>
-            <div className="signup-info">
-              Account Settings
-              </div>
-              </Link>  
-
-          <Link to="/profile/settings/password" onClick={() => console.log("PasswordChange")}>
-            <div className="signup-info">
-              Change Password
-              </div>
-              </Link>
-          <Link to="/profile/settings/hobbiesinterests" onClick={() => console.log("HobbiesInterests")}>
-            <div className="signup-info">
-              Hobbies and Interests
-              </div>
-              </Link>
-          <Link to="/profile/settings/educationemployment" onClick={() => console.log("EducationEmployment")}>
-            <div className="signup-info">
-              Education and Employment
-              </div>
-              </Link>
-
-              </div>
-
-        <div className="right-66">
-          <div className="settings-placeholder">
-            <Personal/>
             </div>
-            </div>      
 
-                
-              
+            <div
+              className={`settings-title ${
+                settingsMenu === "account" ? "active" : ""
+              }`}
+              onClick={() => setSettingsMenu("account")}
+              tabIndex={0}
+              onKeyDown={() => setSettingsMenu("account")}
+            >
+              Account Settings
+            </div>
 
-          
+            <div
+              className={`settings-title ${
+                settingsMenu === "password" ? "active" : ""
+              }`}
+              onClick={() => setSettingsMenu("password")}
+              tabIndex={0}
+              onKeyDown={() => setSettingsMenu("password")}
+            >
+              Change Password
+            </div>
 
-         </div>
+            <div
+              className={`settings-title ${
+                settingsMenu === "hobbiesinterests" ? "active" : ""
+              }`}
+              onClick={() => setSettingsMenu("hobbiesinterests")}
+              tabIndex={0}
+              onKeyDown={() => setSettingsMenu("hobbiesinterests")}
+            >
+              Hobbies & Interests
+            </div>
 
+            <div
+              className={`settings-title ${
+                settingsMenu === "educationemployment" ? "active" : ""
+              }`}
+              onClick={() => setSettingsMenu("educationemployment")}
+              tabIndex={0}
+              onKeyDown={() => setSettingsMenu("educationemployment")}
+            >
+              Education & Employment
+            </div>
+          </div>
 
-
-        
+          <div className="right-66">
+            <div className="settings-placeholder">
+              {settingsMenu === "personal" && <Personal />}
+              {settingsMenu === "account" && <Account />}
+              {settingsMenu === "password" && <Password />}
+              {settingsMenu === "hobbiesinterests" && <HobbiesInterests />}
+              {settingsMenu === "educationemployment" && (
+                <EducationEmployment />
+              )}
+            </div>
+          </div>
+        </div>
       </div>
     </Layout>
   );
-}
+};
 export default Settings;
