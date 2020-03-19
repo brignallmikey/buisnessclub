@@ -39,7 +39,7 @@ function App() {
         <Route exact path="/newsfeed" render={props => <Newsfeed {...props} />} />
         
         <Route exact path="/profile/" render={props => <ProfileTimelinePage {...props} />} />
-        <Route exact path="/profile/about" render={props => <ProfileAboutPage {...props} />} />
+        <Route path="/profile/about" render={props => <ProfileAboutPage {...props} />} />
         <Route exact path="/profile/friends" render={props => <ProfileFriendsPage {...props} />} />
         <Route exact path="/profile/photos" render={props => <ProfilePhotosPage {...props} />} />
         <Route exact path="/profile/videos" render={props => <ProfileVideosPage {...props} />} />

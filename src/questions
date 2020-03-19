@@ -1,5 +1,7 @@
 features: commenting, messagingNO, notifications, profile quote, chat systemNO, 
-javascipt: slidy left bar, or keep as solid object. dropdown boxes for profile etc or have in left sidebar
+javascipt: slidy left barYES, or keep as solid object. dropdown boxes for profile etc or have in left sidebar
 
 
 vs code extension prettier
+useState (import from react)
+ const - variable, 
