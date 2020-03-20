@@ -12,7 +12,7 @@ import { TesterUserData } from "../assets/databaseprofiles/database-profile-micb
 import Layout from "../layout/Layout";
 
 const Settings = () => {
-  const [settingsMenu, setSettingsMenu] = useState("personal");
+  const [settingsMenu, setSettingsMenu] = useState("hobbiesinterests");
   return (
     <Layout>
       <div className="container">

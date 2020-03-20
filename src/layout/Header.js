@@ -1,22 +1,27 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 
+import SignUp from "../pages/SignUp";
 import HeaderIn from "./HeaderIn";
 import HeaderOut from "./HeaderOut";
 
-import { TesterUserData } from '../assets/databaseprofiles/database-profile-micb';
+import { TesterUserData } from "../assets/databaseprofiles/database-profile-micb";
 
 class Header extends Component {
   render() {
     return (
       <div>
         <header className="App-header">
-          <div className="page-title"/>
+          <div className="page-title" />
 
           {/*searchbar*/}
 
           <div>
             <form>
-              <input type="text" className="search-bar" placeholder="Search people and places here" />
+              <input
+                type="text"
+                className="search-bar"
+                placeholder="Search people and places here"
+              />
             </form>
           </div>
 
@@ -26,9 +31,18 @@ class Header extends Component {
             Find Friends
           </a>
 
-          <HeaderOut />
-
-          
+          <div
+            {...function(loggedin) {
+              var document = document.getDocumentById(SignUp);
+              var page;
+              if ((document = SignUp)) {
+                return "HeaderOut";
+              } else {
+                return "HeaderIn";
+              }
+              document.getElementById.loggedin = page;
+            }}
+          ></div>
         </header>
       </div>
     );
