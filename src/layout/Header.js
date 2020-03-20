@@ -6,32 +6,38 @@ import HeaderOut from "./HeaderOut";
 
 import { TesterUserData } from "../assets/databaseprofiles/database-profile-micb";
 
+const signedIn = true;
+
+const ProfileLogo = () => {
+  if (signedIn) {
+    return <HeaderIn />;
+  } else {
+    return <HeaderOut />;
+  }
+};
+
 class Header extends Component {
   render() {
     return (
       <div>
-        <header className="App-header">
-          <div className="page-title" />
+        <header className='App-header'>
+          <div className='page-title' />
 
           {/*searchbar*/}
 
           <div>
             <form>
-              <input
-                type="text"
-                className="search-bar"
-                placeholder="Search people and places here"
-              />
+              <input type='text' className='search-bar' placeholder='Search people and places here' />
             </form>
           </div>
 
           {/*search friends link*/}
-          <span className="search-button" />
-          <a href="#" className="find-friends">
+          <span className='search-button' />
+          <a href='#' className='find-friends'>
             Find Friends
           </a>
 
-          <div
+          {/* <div
             {...function(loggedin) {
               var document = document.getDocumentById(SignUp);
               var page;
@@ -42,7 +48,9 @@ class Header extends Component {
               }
               document.getElementById.loggedin = page;
             }}
-          ></div>
+          ></div> */}
+
+          <ProfileLogo />
         </header>
       </div>
     );
