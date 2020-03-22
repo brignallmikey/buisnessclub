@@ -6,7 +6,7 @@ import HeaderOut from "./HeaderOut";
 
 import { TesterUserData } from "../assets/databaseprofiles/database-profile-micb";
 
-const signedIn = true;
+const signedIn = false;
 
 const ProfileLogo = () => {
   if (signedIn) {
@@ -20,20 +20,24 @@ class Header extends Component {
   render() {
     return (
       <div>
-        <header className='App-header'>
-          <div className='page-title' />
+        <header className="App-header">
+          <div className="page-title" />
 
           {/*searchbar*/}
 
           <div>
             <form>
-              <input type='text' className='search-bar' placeholder='Search people and places here' />
+              <input
+                type="text"
+                className="search-bar"
+                placeholder="Search people and places here"
+              />
             </form>
           </div>
 
           {/*search friends link*/}
-          <span className='search-button' />
-          <a href='#' className='find-friends'>
+          <span className="search-button" />
+          <a href="#" className="find-friends">
             Find Friends
           </a>
 

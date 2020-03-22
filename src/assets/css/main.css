@@ -1353,13 +1353,24 @@ input.send-message {
 
 /*left sidebar*/
 
-.left-sidebar {
-  width: 8%;
+.leftsidebarin {
+  width: 10%;
   height: 100%;
   background-color: var(--box-background);
   position: fixed;
   top: 0;
   left: 0;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.leftsidebarout {
+  width: 10%;
+  height: 100%;
+  background-color: var(--box-background);
+  position: fixed;
+  top: 0;
+  left: -8vw;
   overflow: hidden;
   z-index: 100;
 }
